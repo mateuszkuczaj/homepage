@@ -60,3 +60,6 @@ body {
 position: relative;
 left: 300px;
 }
+.footer__link{
+  color:inherit;
+}
