@@ -1,6 +1,7 @@
 const firstName = 'Mateo';
 const age = 32;
 
+
 console.log(`siema jestem  ${firstName}  i mam ${age} lata`);
 console.log(age);
 const dupa = document.querySelector('.omnnie_descryption');
@@ -13,7 +14,7 @@ function calculate(myNumber){
     myNumber = myNumber * 2;
     return myNumber;
 }
-calculate(1);
+calculateOld(1);
 const myResult =calculate(age);
 console.log(myResult);
 
@@ -21,8 +22,7 @@ function greet(age, firstName){
     console.log(
         `Witaj Kolego, nazywam sie ${firstName} i mam ${age}
 lat`);
-    
-}
+    }
 
 
 function createContent(querySelectorContent, content) {
